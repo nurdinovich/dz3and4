@@ -1,0 +1,70 @@
+.App{
+  margin: 0px auto;
+  text-align: center;
+}
+input{
+  width: 30%;
+  height: 30px;
+ 
+}
+button{
+  width: 10%;
+  height: 40px;
+  background-color: #384358;
+  color: #fbe4d8;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 100px auto;
+}
+table, td, th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+.card {
+  margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height: 500px;
+   justify-content: space-between;
+   padding: 1rem;
+  border: 1px solid #ccc;
+   border-radius: 20px;
+   transition: 0.3s;
+ }
+ 
+ .card img {
+   height: 300px;
+   width: 100%;
+   object-fit: cover;
+   margin: 0 auto;
+   border: 1px solid #ccc;
+   border-radius: 20px;
+ }
+ 
+ .card div {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .card:hover {
+   transform: scale(1.01);
+ }
+ .btn{
+  background-color: #4169E1;
+  color: white;
+  font-size: 16px;
+  width: 40%;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 30px;
+ }
+
